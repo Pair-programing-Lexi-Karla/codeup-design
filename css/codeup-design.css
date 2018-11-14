@@ -1,14 +1,20 @@
-* {
+ * {
     box-sizing: border-box;
-    width: 80%;
-    margin: auto;
+    margin: .5em;
 }
 
+html {
+    margin: 0;
+}
 
+header {
+    margin: 0;
+}
 
 body {
     background-color: #F0F0F0;
 }
+
 
 .white-header {
     top: 4.5em;
@@ -16,16 +22,91 @@ body {
     width: 100%;
     background-color: white;
     position: relative;
-
+    margin: 0;
 }
+
+
 
 .header-logo {
     z-index: 1000;
     position: absolute;
     height: 105px;
     width: 105px;
+    top: 7%;
+
 }
 
 .container-logo {
     width: 100%;
+}
+
+
+.abel {
+    font-family: 'Abel' , sans-serif;
+}
+
+.anton {
+    font-family: 'Anton' , sans-serif;
+}
+
+.no-style {
+    list-style: none;
+    display: inline-block;
+}
+
+ .btn-small-screen {
+     border-radius: 50%;
+     height: 170px;
+     width: 170px;
+     border: 10px solid white;
+     color: white;
+
+ }
+
+ /*if we change .btn-small-screen change the height and width to match it here*/
+ .circle-small-screen {
+     height: 170px;
+     width: 170px;
+ }
+
+ .btn-red {
+     background-color: #E6563b;
+ }
+
+ .btn-yellow {
+     background-color: #EB9D3A;
+ }
+
+ .btn-green {
+      background-color: #7CB06C;
+  }
+
+ .btn-blue {
+     background-color: #00ABA9;
+ }
+
+
+
+ .codeup-design {
+     padding: 1em 0 .5em 0;
+     text-align: center;
+     font-size: 64px;
+     margin: 0;
+ }
+
+.margin-zero {
+     margin: 0 auto;
+    padding: 0;
+ }
+
+.large-text {
+    margin: 1.3em 0 1.3em 0;
+    text-align: center;
+    font-size: 54px;
+}
+
+.utah-text {
+    font-size: 40px;
+    margin: 1.3em 0 1.3em 0;
+    text-align: center;
 }
