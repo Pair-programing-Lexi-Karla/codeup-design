@@ -1,0 +1,21 @@
+body {
+    background-color: #F0F0F0;
+}
+
+.white-header {
+    top: 4.5em;
+    height: 5em;
+    width: 100%;
+    background-color: white;
+    position: relative;
+
+}
+
+.header-logo {
+    top: 2.9em;
+    width: 33%;
+    z-index: 1000;
+    position: absolute;
+
+
+}
