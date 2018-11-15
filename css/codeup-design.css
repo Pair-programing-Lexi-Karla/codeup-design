@@ -57,7 +57,6 @@
         width: 170px;
         border: 10px solid white;
         color: white;
-
     }
 
     /*if we change .btn-small-screen change the height and width to match it here*/
@@ -126,7 +125,6 @@
         height: 24px;
         width: 24px;
         border-radius: 50%;
-
     }
 
     .fp-btn-small {
@@ -134,7 +132,6 @@
         width: 24px;
         margin: 0 auto;
         display: inline-block;
-
     }
 
     .letter {
