@@ -1,7 +1,4 @@
- * {
-    box-sizing: border-box;
-    margin: .5em;
-}
+
 
 html {
     margin: 0;
@@ -129,15 +126,15 @@ body {
 
 
 .fp-btn {
-    height: 18px;
-    width: 18px;
+    height: 24px;
+    width: 24px;
     border-radius: 50%;
 
 }
 
 .fp-btn-small {
-    height: 18px;
-    width: 18px;
+    height: 24px;
+    width: 24px;
     margin: 0 auto;
     display: inline-block;
 
@@ -147,5 +144,6 @@ body {
 .letter {
     text-align: center;
     font-family: 'Anton' , sans-serif;
-    font-size: 9px;
+    font-size: 12px;
+    display: inline-block;
 }
