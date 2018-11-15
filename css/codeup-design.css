@@ -110,3 +110,42 @@ body {
     margin: 1.3em 0 1.3em 0;
     text-align: center;
 }
+
+.large-margin {
+    margin-top: 8em;
+}
+
+.img-fluid {
+    height: auto;
+    max-width: 100%;
+    width: calc(100% - 1em);
+
+}
+.thumbnail {
+    border: .5em solid #E6E6E6;
+    border-radius: 5px;
+}
+
+
+
+.fp-btn {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+
+}
+
+.fp-btn-small {
+    height: 18px;
+    width: 18px;
+    margin: 0 auto;
+    display: inline-block;
+
+
+}
+
+.letter {
+    text-align: center;
+    font-family: 'Anton' , sans-serif;
+    font-size: 9px;
+}
