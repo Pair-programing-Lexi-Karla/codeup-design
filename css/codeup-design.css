@@ -1,149 +1,179 @@
 
 
-html {
-    margin: 0;
+/* Extra-small screen css*/
+
+    html {
+        margin: 0;
+    }
+
+    header {
+        margin: 0;
+    }
+
+    body {
+        background-color: #F0F0F0;
+    }
+
+    .white-header {
+        top: 4.5em;
+        height: 5em;
+        width: 100%;
+        background-color: white;
+        position: relative;
+        margin: 0;
+    }
+
+    .header-logo {
+        z-index: 1000;
+        position: absolute;
+        height: 105px;
+        width: 105px;
+        top: 7%;
+
+    }
+
+    .container-logo {
+        width: 100%;
+    }
+
+    .abel {
+        font-family: 'Abel', sans-serif;
+    }
+
+    .anton {
+        font-family: 'Anton', sans-serif;
+    }
+
+    .no-style {
+        list-style: none;
+        display: inline-block;
+    }
+
+    .btn-small-screen {
+        border-radius: 50%;
+        height: 170px;
+        width: 170px;
+        border: 10px solid white;
+        color: white;
+
+    }
+
+    /*if we change .btn-small-screen change the height and width to match it here*/
+    .circle-small-screen {
+        height: 170px;
+        width: 170px;
+    }
+
+    .btn-red {
+        background-color: #E6563b;
+    }
+
+    .btn-yellow {
+        background-color: #EB9D3A;
+    }
+
+    .btn-green {
+        background-color: #7CB06C;
+    }
+
+    .btn-blue {
+        background-color: #00ABA9;
+    }
+
+    .codeup-design {
+        padding: 1em 0 .5em 0;
+        text-align: center;
+        font-size: 64px;
+        margin: 0;
+    }
+
+    .margin-zero {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .large-text {
+        margin: 1.3em 0 1.3em 0;
+        text-align: center;
+        font-size: 54px;
+    }
+
+    .utah-text {
+        font-size: 40px;
+        margin: 1.3em 0 1.3em 0;
+        text-align: center;
+    }
+
+    .large-margin {
+        margin-top: 8em;
+    }
+
+    .img-fluid {
+        height: auto;
+        max-width: 100%;
+        width: calc(100% - 1em);
+
+    }
+
+    .thumbnail {
+        border: .5em solid #E6E6E6;
+        border-radius: 5px;
+    }
+
+    .fp-btn {
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+
+    }
+
+    .fp-btn-small {
+        height: 24px;
+        width: 24px;
+        margin: 0 auto;
+        display: inline-block;
+
+    }
+
+    .letter {
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        font-size: 12px;
+        display: inline-block;
+    }
+
+
+
+/* Small screen css*/
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+    body {
+        background-color: lightpink;
+    }
+
+
+
+
 }
 
-header {
-    margin: 0;
-}
 
-body {
-    background-color: #F0F0F0;
-}
+/* Medium screen css*/
 
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
-.white-header {
-    top: 4.5em;
-    height: 5em;
-    width: 100%;
-    background-color: white;
-    position: relative;
-    margin: 0;
-}
-
-
-
-.header-logo {
-    z-index: 1000;
-    position: absolute;
-    height: 105px;
-    width: 105px;
-    top: 7%;
+    body {
+        background-color: lightblue;
+    }
 
 }
 
-.container-logo {
-    width: 100%;
-}
 
+/* Large and xl screen css*/
 
-.abel {
-    font-family: 'Abel' , sans-serif;
-}
+@media screen and (min-width: 992px) {
+    body {
+        background-color: lightyellow;
+    }
 
-.anton {
-    font-family: 'Anton' , sans-serif;
-}
-
-.no-style {
-    list-style: none;
-    display: inline-block;
-}
-
- .btn-small-screen {
-     border-radius: 50%;
-     height: 170px;
-     width: 170px;
-     border: 10px solid white;
-     color: white;
-
- }
-
- /*if we change .btn-small-screen change the height and width to match it here*/
- .circle-small-screen {
-     height: 170px;
-     width: 170px;
- }
-
- .btn-red {
-     background-color: #E6563b;
- }
-
- .btn-yellow {
-     background-color: #EB9D3A;
- }
-
- .btn-green {
-      background-color: #7CB06C;
-  }
-
- .btn-blue {
-     background-color: #00ABA9;
- }
-
-
-
- .codeup-design {
-     padding: 1em 0 .5em 0;
-     text-align: center;
-     font-size: 64px;
-     margin: 0;
- }
-
-.margin-zero {
-     margin: 0 auto;
-    padding: 0;
- }
-
-.large-text {
-    margin: 1.3em 0 1.3em 0;
-    text-align: center;
-    font-size: 54px;
-}
-
-.utah-text {
-    font-size: 40px;
-    margin: 1.3em 0 1.3em 0;
-    text-align: center;
-}
-
-.large-margin {
-    margin-top: 8em;
-}
-
-.img-fluid {
-    height: auto;
-    max-width: 100%;
-    width: calc(100% - 1em);
-
-}
-.thumbnail {
-    border: .5em solid #E6E6E6;
-    border-radius: 5px;
-}
-
-
-
-.fp-btn {
-    height: 24px;
-    width: 24px;
-    border-radius: 50%;
-
-}
-
-.fp-btn-small {
-    height: 24px;
-    width: 24px;
-    margin: 0 auto;
-    display: inline-block;
-
-
-}
-
-.letter {
-    text-align: center;
-    font-family: 'Anton' , sans-serif;
-    font-size: 12px;
-    display: inline-block;
 }
