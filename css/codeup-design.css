@@ -15,12 +15,13 @@
     }
 
     .white-header {
-        top: 4.5em;
-        height: 5em;
+        top: 3.5em;
+        height: 4em;
         width: 100%;
         background-color: white;
         position: relative;
         margin: 0;
+        margin-bottom: 1em;
     }
 
     .header-logo {
@@ -28,7 +29,8 @@
         position: absolute;
         height: 105px;
         width: 105px;
-        top: 7%;
+        top: 5%;
+        margin-left: 1em;
 
     }
 
@@ -151,6 +153,27 @@
     body {
         background-color: lightpink;
     }
+
+    .header-logo {
+        margin-left: 0;
+
+    }
+
+    .codeup-design {
+        font-size: 32px;
+        margin-top: 1em;
+    }
+
+    .nav-menu-sm {
+        font-size: 18px;
+        width: 80%;
+
+    }
+
+    .sm-nav-top {
+        top: -7.5em;
+    }
+
 
 
 
