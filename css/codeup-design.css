@@ -146,6 +146,12 @@
     display: none;
     }
 
+    .hidden-on-xs {
+        display: none;
+    }
+
+
+
 /* Small screen css*/
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -211,6 +217,13 @@
         font-size: 16px;
     }
 
+    .visible-on-xs {
+        display: none;
+    }
+
+    .hidden-on-xs {
+        display: block;
+    }
 }
 
 
@@ -222,6 +235,10 @@
         background-color: lightblue;
     }
 
+    .hidden-on-xs {
+        display: block;
+    }
+
 }
 
 
@@ -230,6 +247,10 @@
 @media screen and (min-width: 992px) {
     body {
         background-color: lightyellow;
+    }
+
+    .hidden-on-xs {
+        display: block;
     }
 
 }
