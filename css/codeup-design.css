@@ -223,7 +223,34 @@
 
     .hidden-on-xs {
         display: block;
+
     }
+
+    .sm-font {
+        font-size: 12px;
+    }
+
+
+    .fp-btn {
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+    }
+
+    .fp-btn-small {
+        height: 24px;
+        width: 24px;
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+    .col-6 {
+        padding: 0;
+    }
+
+
+
+
 }
 
 
