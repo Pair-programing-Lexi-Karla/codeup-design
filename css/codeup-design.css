@@ -232,14 +232,14 @@
 
 
     .fp-btn {
-        height: 24px;
-        width: 24px;
+        height: 18px;
+        width: 18px;
         border-radius: 50%;
     }
 
     .fp-btn-small {
-        height: 24px;
-        width: 24px;
+        height: 18px;
+        width: 18px;
         margin: 0 auto;
         display: inline-block;
     }
@@ -248,7 +248,10 @@
         padding: 0;
     }
 
+    .abel.m-0.sm-font {
+        display: inline;
 
+    }
 
 
 }
@@ -260,6 +263,11 @@
 
     body {
         background-color: lightblue;
+    }
+
+
+    .visible-on-xs {
+        display: none;
     }
 
     .hidden-on-xs {
@@ -280,4 +288,7 @@
         display: block;
     }
 
+    .visible-on-xs {
+        display: none;
+    }
 }
