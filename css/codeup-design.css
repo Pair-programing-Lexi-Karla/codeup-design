@@ -152,6 +152,7 @@
 
 
 
+
 /* Small screen css*/
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -292,6 +293,7 @@
     .codeup-design {
         font-size: 32px;
         margin-top: 1em;
+        display: inline-block;
     }
 
     .nav-menu-sm {
@@ -302,10 +304,13 @@
     }
 
     .sm-nav-top {
-        top: -7.5em;
+        top: -3.5em;
     }
 
+    .codeup-design {
+        top: -.4em;
 
+    }
 
 
 }
@@ -340,4 +345,4 @@
         width: 105px;
         margin: .3em;
     }
-}
+
