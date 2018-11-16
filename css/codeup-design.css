@@ -312,6 +312,20 @@
 
     }
 
+    .gray-line {
+        width: 100%;
+        display: block;
+    }
+
+    .md-font-size {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    .md-width {
+        width: 70%;
+        float: left;
+    }
 
 }
 
@@ -344,5 +358,10 @@
         height: 105px;
         width: 105px;
         margin: .3em;
+    }
+
+    .gray-line {
+        width: 100%;
+        display: block;
     }
 
