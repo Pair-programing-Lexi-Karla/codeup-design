@@ -60,6 +60,8 @@
         color: white;
     }
 
+
+
     /*if we change .btn-small-screen change the height and width to match it here*/
     .circle-small-screen {
         height: 170px;
@@ -157,9 +159,9 @@
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
 
-    body {
-        background-color: lightpink;
-    }
+    /*body {*/
+        /*background-color: lightpink;*/
+    /*}*/
 
     .header-logo {
         margin-left: 0;
@@ -266,9 +268,9 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
-    body {
-        background-color: lightblue;
-    }
+    /*body {*/
+        /*background-color: lightblue;*/
+    /*}*/
 
 
     .visible-on-xs {
@@ -283,6 +285,7 @@
         height: 105px;
         width: 105px;
         border: 6px solid white;
+        margin-left: 4em;
 
 
     }
@@ -370,15 +373,44 @@
         display: inline-block;
     }
 
+    .sidebar-images {
+        height: 48px;
+        width: 48px;
+        border: .2em solid #E6E6E6;
+        border-radius: 4px;
+    }
+
+    .twitter-logo{
+        height: 24px;
+        width: 24px;
+    }
+
+    .tweet-font{
+        font-size: 12px;
+        font-family: 'Abel', sans-serif
+    }
+
+    .tweet-header {
+        font-family: 'Abel', sans-serif
+    }
+
+    .sidebar-header {
+       font-family: 'Abel', sans-serif;
+       position: absolute;
+       margin-top:-3em;
+       margin-left: 31em;
+    }
+
+
 }
 
 
 /* Large and xl screen css*/
 
-@media screen and (min-width: 992px) {
-    body {
-        background-color: lightyellow;
-    }
+@media screen and (min-width: 991px) {
+    /*body {*/
+        /*background-color: lightyellow;*/
+    /*}*/
 
     .hidden-on-xs {
         display: block;
@@ -389,6 +421,7 @@
     }
 
     .btn-small-screen {
+        margin-left: 14em;
         height: 105px;
         width: 105px;
         border: 6px solid white;
@@ -455,11 +488,43 @@
 
     .nav-menu-sm {
         font-size: 18px;
-
-
     }
 
+    .sm-nav-top {
+        top: -3.5em;
+    }
 
+    .sidebar-images {
+        height: 48px;
+        width: 48px;
+        border: .2em solid #E6E6E6;
+        border-radius: 4px;
+    }
+
+    .twitter-logo{
+        height: 24px;
+        width: 24px;
+    }
+
+    .tweet-font{
+        font-size: 12px;
+        font-family: 'Abel', sans-serif
+    }
+
+    .tweet-header {
+        font-family: 'Abel', sans-serif
+    }
+
+    .sidebar-header {
+        font-family: 'Abel', sans-serif;
+        margin-top:-3em;
+        margin-left: 70%;
+    }
+
+    .xl-screen-padding {
+    padding-right: 10%;
+    padding-left: 10%;
+}
 
 }
 
